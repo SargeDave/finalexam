@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="movie-container">
+        <label>Select a movie:</label>
+        <select id="movie">
+            <option value="300">Avengers - $300</option>
+            <option value="250">Spider-Man - $250</option>
+            <option value="200">Batman - $200</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <p class="info">
+        Selected Seats: <span id="count">0</span> | Total Price: $<span id="total">0</span>
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
